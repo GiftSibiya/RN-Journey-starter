@@ -2,6 +2,7 @@ import { View, Text, StyleSheet, SafeAreaView } from 'react-native';
 import React from 'react';
 import MapView from 'react-native-maps';
 
+
 const Home = () => {
   return (
     <SafeAreaView className='flex-1'>

@@ -1,11 +1,12 @@
-import { View, Text, Image, StyleSheet } from 'react-native'
 import React from 'react'
+import { View, Text, Image, StyleSheet } from 'react-native'
 
 // Images
 import homeIcon from  "../../assets/icons/icons8-home-48.png"
 import workIcon from "../../assets/icons/icons8-work-48.png"
 
 const AddressConponent = ({title, address}) => {
+
   return (
     <View className='flex items-center my-2 h-[100px]'>
       <View className=' flex flex-row bg-yellow-400 rounded-xl h-[100px] w-[90%]'>
