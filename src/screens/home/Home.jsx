@@ -22,6 +22,7 @@ const Home = () => {
   );
 }
 
+
 const styles = StyleSheet.create({
   map: {
     flex: 1,

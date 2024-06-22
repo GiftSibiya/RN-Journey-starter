@@ -21,6 +21,7 @@ const AddressConponent = ({title, address}) => {
   )
 }
 
+
 const styles = StyleSheet.create({
   addressCon: {
     textAlign: 'center',
