@@ -1,11 +1,11 @@
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, SafeAreaView } from 'react-native';
 import React from 'react';
 import MapView from 'react-native-maps';
 
 const Home = () => {
   return (
-    <View style={styles.container}>
-      <View style={styles.mapContainer}>
+    <SafeAreaView className='flex-1'>
+      <View className='flex-1'>
         <MapView
           style={styles.map}
           initialRegion={{
@@ -17,25 +17,14 @@ const Home = () => {
         />
       </View>
       <View style={styles.textContainer}>
-        <Text>Hello There</Text>
       </View>
-    </View>
+    </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
-  mapContainer: {
-    flex: 1,
-    backgroundColor: '#475569',
-  },
   map: {
-    flex: 1, // Make the map fill the entire container
-  },
-  textContainer: {
-    padding: 16,
+    flex: 1,
   },
 });
 
